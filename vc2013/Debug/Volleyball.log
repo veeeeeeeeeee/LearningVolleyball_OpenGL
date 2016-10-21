@@ -1,0 +1,48 @@
+﻿Build started 28-May-16 3:28:25 PM.
+     1>Project "F:\Documents\1 Studying\MONASH\2016-s1\3094\Assignments\2\Volleyball\vc2013\Volleyball.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Install Directories\vs 2013\VC\bin\CL.exe /c /I..\include /I..\..\..\..\cinder_0.9.0_vc2013\include /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WIN32_WINNT=0x0601 /D _WINDOWS /D NOMINMAX /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Agent.cpp ..\src\Ball.cpp ..\src\Bot.cpp ..\src\DNA.cpp ..\src\Net.cpp ..\src\Perceptron.cpp ..\src\Population.cpp ..\src\VolleyballApp.cpp
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         VolleyballApp.cpp
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\volleyballapp.cpp(90): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\volleyballapp.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\volleyballapp.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\volleyballapp.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\volleyballapp.cpp(437): warning C4018: '<' : signed/unsigned mismatch
+         Population.cpp
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\population.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\population.cpp(61): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\population.cpp(64): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Perceptron.cpp
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\perceptron.cpp(9): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\perceptron.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+         Net.cpp
+         DNA.cpp
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\dna.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\dna.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\dna.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\dna.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\dna.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2016-s1\3094\assignments\2\volleyball\src\dna.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+         Bot.cpp
+         Ball.cpp
+         Agent.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I..\..\..\..\cinder_0.9.0_vc2013\include /I..\include /nologo /fo"Debug\Resources.res" Resources.rc 
+       Link:
+         E:\Install Directories\vs 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Documents\1 Studying\MONASH\2016-s1\3094\Assignments\2\Volleyball\vc2013\Debug\Volleyball.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\cinder_0.9.0_vc2013\lib\msw\x86 "cinder-v120_d.lib" OpenGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:LIBCPMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Documents\1 Studying\MONASH\2016-s1\3094\Assignments\2\Volleyball\vc2013\Debug\Volleyball.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"F:\Documents\1 Studying\MONASH\2016-s1\3094\Assignments\2\Volleyball\vc2013\Debug\Volleyball.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\Agent.obj
+         Debug\Ball.obj
+         Debug\Bot.obj
+         Debug\DNA.obj
+         Debug\Net.obj
+         Debug\Perceptron.obj
+         Debug\Population.obj
+         Debug\VolleyballApp.obj
+         Volleyball.vcxproj -> F:\Documents\1 Studying\MONASH\2016-s1\3094\Assignments\2\Volleyball\vc2013\Debug\Volleyball.exe
+     1>Done Building Project "F:\Documents\1 Studying\MONASH\2016-s1\3094\Assignments\2\Volleyball\vc2013\Volleyball.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.03
